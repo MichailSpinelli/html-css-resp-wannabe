@@ -159,10 +159,26 @@ img {
 
     .row{
         display: flex;
-        
+        flex-direction: column;
+        width: 100%;
     }
 
-    .col{
+    .lessons .col{
         width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .steps .col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .why-us .col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .why-us{
+        background-color: #222222;
     }
  }
